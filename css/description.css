@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+  text-decoration: none;
+}
+/* gallery section */
+#gallery{padding-top: 100px;}
+#gallery h2{font-size: 40px; font-weight: 700;}
+#gallery .p-title p{color: #888; font-size: 14px;}
+#gallery .picture img{height: 149px;width: 225px;margin-top: 0px;}
+#gallery .right-text { margin-top: -38px;}
+#gallery .right-content{margin-bottom: 40px;}
+/* post section */
+#post .profile{padding: 50px 0px;}
+#post img{height: 85px;width: 85px;border-radius: 100%;}
+#post .profile h4{color: #888;font-size: 20px;}
+#post .profile p{color: #00000080;font-size: 16px;text-transform: uppercase;}
+/* description section*/
+
+#description .desc-title h2{font-size: 34px;font-weight: 700;}
+#description .desc-title p{font-size: 15px;color: #888;}
+#description{text-align: center;}
+#description .desc-title img{margin-bottom: 20px;}
+#description .desc-text{border-bottom: 1px solid #888;}
+#description .desc-text p{text-align: left;color: #888;font-size: 18px;margin-left: 160px;margin-right: 200px;
+margin-bottom: 20px;}
+#description  .quote{border-left: 2px solid black;font-size: 16px !important;padding-left: 40px;font-style: italic;font-weight: 400;}
+#description .pic-gallery{display: grid;grid-template-columns: auto auto auto;padding: 0px 160px;margin: 20px 0px;}
+/* social-link section */
+#social-link{padding-top: 60px;padding-left: 250px;padding-bottom: 100px;}
+#social-link .social-icon h3{font-size: 18px;color: #888;
+font-weight: 700;}
+#social-link .social-icon a i{color: black;font-size: 18px;
+padding-right: 24px;margin-top: 10px;}
+
